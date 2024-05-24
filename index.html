@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub profile User</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <h1>GitHub Profile Checker</h1>
+        <input type="text" placeholder="Search Name" id="username">
+        <button id="btn" type="submit">Find Now</button>
+    </form>
+    <div class="container">
+        <div class="left">
+            <img src="" >
+        </div>
+        <div class="right">
+           <span>Name :</span> <span id="name"></span>
+            <p style="font-weight: bold;">Bio :</p>
+           <p id="bio"></p>
+            <div>
+               <span>Follower</span> <span id="follower">0</span> 
+                <span>Following</span><span id="following">0</span>
+                <span>Repository</span><span id="repository">0</span>
+            </div>   
+            <span>Location : </span><span id="location"></span>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
